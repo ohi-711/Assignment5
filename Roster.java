@@ -10,10 +10,12 @@ import java.io.*;
 public class Roster{
 
 	HockeyPlayer players[];
-	
+	Scanner s;
+   
 	Roster(){									//to simplify for this program:
 		players = new HockeyPlayer[18]; //a hockey team will always have 18 skaters on the roster
-	}
+	   s = new Scanner(System.in);
+   }
 	
 	Roster(String f){
 		players = new HockeyPlayer[18];
@@ -51,5 +53,28 @@ public class Roster{
 	}
 	
 	//insert assignment methods below this point
+   
+   public void input() {
+      String option;
+      System.out.println("Please enter the name of the txt file containing the player data: ");
+      String fileName = s.nextLine();
+      System.out.println("Please enter an option (o for a list of options): ");
+      option = s.nextLine();
+      if (option.equals("o")) {
+         System.out.println("Options: ");
+         System.out.println("1. Sort by goals");
+         System.out.println("2. Sort by total points");
+      }
+      else if (option.equals("1")) {
+      
+      }
+      else if (option.equals("2")) {
+      
+      }
+      else {
+         System.out.println("Please enter a valid option.");
+      }
+   }
+   
 
 }
