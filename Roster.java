@@ -51,8 +51,17 @@ public class Roster{
 		}
 		return;
 	}
+   
 	
 	//insert assignment methods below this point
+   
+   public void sortPoints() {
+      
+   }
+   
+   public void sortYear() {
+   
+   }
    
    public void input() {
       String option;
