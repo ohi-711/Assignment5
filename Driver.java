@@ -1,3 +1,9 @@
+/*
+Author: April Sun
+Date: 02/04/2024
+Description: A class that has a main method to run the program and an input class to take input from the user
+*/
+
 import java.util.Scanner;
 
 public class Driver {
@@ -7,7 +13,6 @@ public class Driver {
       s = new Scanner(System.in);
    }
    public void input() {
-
       String option;
       boolean exit = false;
 
