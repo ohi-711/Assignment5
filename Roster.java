@@ -54,7 +54,7 @@ public class Roster{
 
 	//insert assignment methods below this point
    
-   public void sortPoints() {
+   public void sortPoints() { // uses gnome sort to sort the players by points
 	   int index = 0;
 	   while (index < 18) {
 		   if (index == 0)
@@ -70,7 +70,7 @@ public class Roster{
 	   }
    }
    
-   public void sortGoals() {
+   public void sortGoals() { // uses gnome sort to sort the players by goals
 	   int index = 0;
 	   while (index < 18) {
 		   if (index == 0)
